@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Celebrity dating quiz</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Celebrity Dating Quiz</h1>
+
+    <p>Which celebrity will you date?!</p>
+
+    <form id="quiz">
+
+    <!-- question 1 -->
+
+    <label>What is your favorite color?</label> 
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="favColor" id="favColor1" value="red1" checked>
+      <label class="form-check-label" for="exampleRadios1">
+       red
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="favColor" id="favColor2" value="blue2">
+      <label class="form-check-label" for="exampleRadios2">
+       blue
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="favColor" id="favColor3" value="other3" >
+      <label class="form-check-label" for="exampleRadios3">
+       other
+      </label>
+    </div>
+
+
+    <!-- question 2 -->
+
+    <label>Do you like long walks on the beach?</label>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="beach" id="beach1" value="yes1" checked>
+      <label class="form-check-label" for="exampleRadios1">
+       yes
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="beach" id="beach2" value="no2">
+      <label class="form-check-label" for="exampleRadios2">
+        no
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="beach" id="beach3" value="idk3" >
+      <label class="form-check-label" for="exampleRadios3">
+       idk
+      </label>
+    </div>
+  
+
+
+
+    <!-- button -->
+
+
+      <button type="submit" class="btn">submit</button>
+    </form>
+
+
+    <div id="img-hidden">
+      <p>Your celebrity date is: Ghoulie Julie!</p>
+      <img src="img/ghoul.jpg">
+    </div>
+  </div>
+</body>
+</html>
